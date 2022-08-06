@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic form</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <form action="">
+      <label for="">Name<span class="required">*</span></label>
+      
+      <input type="text" name="fname" id="fname" placeholder="First Name" />
+      <input type="text" name="lname" id="lname" placeholder="Last Name" /><br />
+      <label for="" style="margin-left: 50px;">First Name</label>
+      <label for="" style="margin-left: 100px;">Last Name</label>
+      <br><br>
+      <label for="">Email<span class="required">*</label>
+        <input type="email"/>
+        <br><br>
+        <label for="">Your Experience<span class="required">*</label>
+            <br><br><br>
+            <div class="wrapper">
+                <div class="wrapper">
+         <input type="radio" name="rate" id="rate1">
+         <label for="rate1"></label>
+         <input type="radio" name="rate" id="rate2">
+         <label for="rate2"></label>
+         <input type="radio" name="rate" id="rate3">
+         <label for="rate3"></label>
+         <input type="radio" name="rate" id="rate4">
+         <label for="rate4"></label>
+         <input type="radio" name="rate" id="rate5">
+         <label for="rate5"></label>
+        </div>
+        
+            </div>
+            <br>
+            <h4>How Satisfied you are with <span style="color:red;">*</span></h4>
+           
+
+            <table border = ".1">
+                <thead>
+                    <tr class="header row">
+                        <th></th>
+                        <th style="width: 15%;">Very Unsatisfied</th>
+                        <th style="width: 15%;">Unsatisfied</th>
+                        <th style="width: 15%;">Neutral</th>
+                        <th style="width: 15%;">Satisfied</th>
+                        <th style="width: 15%;">Very Satisfied</th>
+                    </tr>
+                    <tr>
+                        <td>Purchase</td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                    </tr>
+                    <tr>
+                        <td>Company Overall</td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                        <td><input type="radio" class="tbrate"></td>
+                    </tr>
+                </thead>
+            </table>
+
+            <br>
+            <h4>How likely you are to <span style="color:red;">*</span></h4>
+
+
+            <table border = ".1" class = "table table-striped">
+              <thead>
+                  <tr class="header row">
+                      <th></th>
+                      <th style="width: 15%;">Very Unsatisfied</th>
+                      <th style="width: 15%;">Unsatisfied</th>
+                      <th style="width: 15%;">Neutral</th>
+                      <th style="width: 15%;">Satisfied</th>
+                      <th style="width: 15%;">Very Satisfied</th>
+                  </tr>
+                  <tr>
+                      <td>Buy from us again</td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                  </tr>
+                  <tr>
+                      <td>Recommend our products to Others</td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                  </tr>
+                  <tr>
+                      <td>Recommend our company to Others</td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                      <td><input type="radio" class="tbrate"></td>
+                  </tr>
+              </thead>
+          </table>
+          <br>
+          <h4>Additional comments or suggestions</h4>
+          <textarea placeholder="Comments" class="comments"></textarea>
+          <br>
+          <button>Submit</button>
+    </form>
+  </body>
+</html>
